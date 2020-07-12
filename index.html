@@ -9,6 +9,11 @@
 </head>
 <body>
     <div class="container">
+        <aside>
+            <p>Coding Time</p>
+            <p>I am eating nothing for now. I'm on my laptop, coding</p>
+            <img src="img/codingtime.png" alt="coding time">
+        </aside>
         <form>
             <div class="form-group">
                 <input type="text" class="form-control" id="first-input" placeholder="Enter Time To Your Food eg 8">
@@ -16,10 +21,25 @@
             <div class="form-group">
                 <input type="text" class="form-control" id="second-input" placeholder="Enter Food Name eg Rice">
             </div>
-            <button type="submit" class="btn btn-primary">ADD</button>
+            <div class="form-group">
+                <select class="form-group">
+                    <option>Breakfast</option>
+                    <option>Lunch</option>
+                    <option>Supper</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Add</button>
             <button class="btn btn-primary">Clear Storage</button>
         </form>
+        <br>
+        <br>
+        <table>
+            <th>Food Type</th>
+            <th>Food Name</th>
+            <th>Time To Eat</th>
+        </table>
     </div>
+    <div class="jumbotron" id="footer-section">Copyright 2020 | All Rights reserved. Coded By Joel</div>
     <script src="js/script.js"></script>
 </body>
 </html>
